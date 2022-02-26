@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(43, 42, 42);
+    height: 60%;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(211, 207, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:2vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    display: inline-block;
+}
+
+.header a:hover{
+    color: rgb(255, 255, 255);
+    opacity: 90%;
+    transition: 0.5s;
+}
+
+.cover{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    position: relative;
+    height: 39vw;
+}
+
+.intro{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    background-color: #14213d;
+}
+
+.intro p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    width: 80vw;
+    padding-left: 9vw;
+}
+
+.extFrame{
+    position: relative;
+}
+
+.frame1{
+    padding: 2vw;
+    border-radius: 1000vw;
+    opacity: 50%;
+    width: 14vw;
+    height: 14vw;
+}
+.frame_div1{
+    display: inline-block;
+    margin-left: 4vw;
+}
+.frame_div2{
+    margin-left: 10vw;
+    display: inline-block;
+}
+
+.frame2{
+    padding: 2vw;
+    border-radius: 1000vw;
+    width: 14vw;
+    height: 14vw;
+}
+
+.text{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3vw;
+    display: none;
+    font-weight: bold;
+}
+
+#text_id1{
+    top: 9vw;
+    left: 6.6vw;
+}
+
+#text_id2{
+    top: 9vw;
+    left: 34vw;
+}
+
+#text_id3{
+    top: 9vw;
+    left: 51vw;
+}
+
+#text_id4{
+    top: 9vw;
+    left: 76vw;
+}
+
+#text_id5{
+    top: 27vw;
+    left: 15vw;
+}
+
+#text_id6{
+    top: 27vw;
+    left: 44vw;
+}
+
+#text_id7{
+    top: 27vw;
+    left: 73vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes hyperlinkAniFrame{
+    from{
+        width: 14vw;
+        height: 14vw;
+    }
+    to{
+        width: 16vw;
+        height: 16vw;
+    }
+}
+
+.frame1:hover{
+    animation: hyperlinkAniFrame 2s;
+}
+
+#frame_div11:hover #text_id1 {display: block;}
+#frame_div12:hover #text_id2 {display: block;}
+#frame_div13:hover #text_id3 {display: block;}
+#frame_div14:hover #text_id4 {display: block;}
+#frame_div15:hover #text_id5 {display: block;}
+#frame_div16:hover #text_id6 {display: block;}
+#frame_div17:hover #text_id7 {display: block;}
+
+.footer{
+    background-color: rgb(43, 42, 42);
+    height: 3vw;
+}
+
+.foot_text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    color: rgb(197, 201, 204);
+    padding-top: 1vw;
+    margin-right: 3vw;
+}
+
+

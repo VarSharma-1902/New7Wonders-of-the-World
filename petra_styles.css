@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: #311b09;
+    height: 4vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+.navigation a,p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+    padding-left: 2vw;
+    padding-top: 1vw;
+    display: inline-block;
+}
+
+.head{
+    position: relative;
+}
+
+.main_text{
+    font-size: 5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 3vw;
+    position: absolute;
+    top: 20vw;
+    left: 43vw;
+}
+
+.main{
+    width: 98.5vw;
+    height: 55vw;
+    opacity: 60%;
+}
+
+.para{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.para p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    width: 90vw;
+}
+
+#para1{
+    background-color: #0091ad;
+    margin-bottom: 3vw;
+}
+#para1 div{
+    display: inline-block;
+}
+
+#para1 h2{
+    color: rgba(252, 235, 251, 0.89);
+    padding: 2vw;
+    padding-left: 3vw;
+    padding-right: 15vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5.5vw;
+}
+
+#para1 iframe{
+    display: inline-block;
+    width: 50vw;
+    height: 25vw;
+}
+
+#para2{
+    background-color: #2d6a4f;
+    text-align: left;
+}
+
+#para2 div{
+    display: inline-block;
+}
+
+#para2 #content{
+    padding-left: 5vw;
+    padding-right: 4vw;
+    width: 50vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, 0.925);
+}
+
+#para2 #title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8vw;
+    width: 23vw;
+    color: rgb(141, 180, 178);
+}
+
+
+
+#para3{
+    background-color: #bdccbe;
+    margin-top: 3vw;
+}
+
+#para3 div{
+    display: inline-block;
+}
+
+#para3 #content{
+    padding-left: 13vw;
+    padding-right: 4vw;
+    width: 50vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, 0.925);
+}
+
+#para3 #title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8vw;
+    width: 25vw;
+    color: rgb(44, 50, 85);
+    padding-left: 4vw;
+}
+
+
+
+#para4{
+    background-color: #d8a74c;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+#para4 div{
+    display: inline-block;
+}
+
+#para4 h2{
+    color: rgba(7, 7, 7, 0.89);
+    padding: 1vw;
+    padding-left: 9vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vw;
+}
+
+#para4 iframe{
+    display: inline-block;
+    margin-left: 10vw;
+    width: 50vw;
+    height: 25vw;
+}
+
+#para5{
+    background-color: #311b09;
+    padding-top: 2vw;
+    height: 1.5vw !important;
+}
+
+#para5 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: #1b3450;
+    height: 3.5vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+.navigation a,p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:  #cbf3f0;
+    padding-left: 2vw;
+    padding-top: 0.5vw;
+    display: inline-block;
+}
+
+.head{
+    position: relative;
+}
+
+.main_text{
+    font-size: 6vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 3vw;
+    position: absolute;
+    top: 15vw;
+    left: 35vw;
+}
+
+.main{
+    width: 98.5vw;
+    height: 51vw;
+    opacity: 60%;
+}
+
+.para{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.para p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    width: 90vw;
+}
+
+#para1{
+    background-color: #c2d8b9;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+#para1 div{
+    display: inline-block;
+}
+
+#para1 h2{
+    color: rgba(133, 30, 30, 0.89);
+    padding: 2vw;
+    padding-left: 6vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4.5vw;
+    width: 4vw;
+}
+
+#para1 iframe{
+    display: inline-block;
+    margin-left: 27vw;
+    width: 50vw;
+    height: 25vw;
+}
+
+#para2{
+    background-color: #8c2f39;
+    text-align: left;
+    margin-bottom: 3vw;
+}
+
+#para2 div{
+    display: inline-block;
+}
+
+#para2 #content{
+    padding-left: 3.5vw;
+    padding-right: 7vw;
+    width: 60vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    color: rgba(253, 251, 255, 0.925);
+}
+
+#para2 #title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5.5vw;
+    width: 25vw;
+    color: rgb(192, 196, 157);
+}
+
+
+#para3{
+    background-color: #64a6bd;
+    text-align: left;
+}
+
+#para3 div{
+    display: inline-block;
+}
+
+#para3 #content{
+    padding-left: 5vw;
+    padding-right: 8vw;
+    width: 52vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5vw;
+    color: rgba(141, 56, 35, 0.925);
+}
+
+#para3 #title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5.5vw;
+    width: 25vw;
+    color: rgb(14, 18, 54);
+    padding-left: 3vw;
+}
+
+#para4{
+    background-color: #1b3450;
+    padding-top: 2vw;
+    height: 1.5vw !important;
+    margin-top: 1vw;
+}
+
+#para4 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
